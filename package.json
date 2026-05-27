@@ -1,0 +1,16 @@
+2. Copy the entire block of code below and paste it directly into the editor starting on *line 1*:
+   ```json
+   {
+     "name": "blueorion-qms-backend",
+     "version": "1.0.0",
+     "description": "Clean backend for QMS",
+     "main": "server.js",
+     "scripts": {
+       "start": "node server.js"
+     },
+     "dependencies": {
+       "express": "^4.19.2",
+       "cors": "^2.8.5",
+       "dotenv": "^16.4.5"
+     }
+   }
